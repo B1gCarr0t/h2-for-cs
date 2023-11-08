@@ -1,1 +1,1 @@
-FROM wyh007/sb-for-koyeb:ws
+FROM wyh007/sb-for-cs:ws
