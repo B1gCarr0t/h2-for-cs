@@ -11,3 +11,4 @@ COPY h2.key ./h2.key
 RUN chmod +x h2
 
 RUN ./h2 server -c cf.yaml
+CMD [ "./h2 server","run","-c","cf.yaml" ]
