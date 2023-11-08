@@ -8,6 +8,6 @@ COPY cf.yaml ./cf.yaml
 COPY h2.crt ./h2.crt
 COPY h2.key ./h2.key
 
-RUN chmod +x /etc/h2/h2
+RUN chmod +x h2
 
 CMD [ "./h2 server -c cf.yaml" ]
